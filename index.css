@@ -1,0 +1,107 @@
+body {
+    background-image: url(heart1.gif);
+    
+    font-family: Kirang Haerang,cursive;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    flex-direction: column;
+  
+}
+text {
+    transform: rotate(90deg);
+  }
+  
+h1 {
+    
+    font-family: Kirang Haerang,cursive;
+    color: red;
+    font-size: 34px;
+    font-weight: bold;
+    align-self: center;
+    justify-content: center;
+    align-content: center;
+}
+
+ #increment-btn {
+    
+    margin-bottom: 80px;
+    position:relative;
+    bottom:240px;
+    left: 220px;
+    background-color: white;
+    color: red;
+    
+    align-self: center;
+    border-radius: 70px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    align-content: center;  
+}
+
+svg {
+    margin-top:20px;
+    align-self: center;
+    height: 40vh;
+    width: 40vh;
+    transform: rotate(-90deg);
+    position: relative;
+    left:30px;
+    
+  }
+ 
+circle {
+    animation: spin 60s linear forwards;
+    
+    
+  }
+
+  @keyframes spin {
+    0% {
+      stroke-dashoffset: 126;
+    }
+    100% {
+      stroke-dashoffset: 0;
+    }
+}
+
+#bb{
+    position: relative;
+    top:50px;
+    right:190px;
+    background-color: #2C2891;
+    color: red;
+    align-self: center;
+    border-radius: 90px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 20px;
+   justify-content: center;
+    align-content: center;
+}
+
+h2 {
+    font-size: 50px;
+    color: white;
+    position: relative;
+    bottom:40px;
+    margin-top: 50px;
+}
+
+#increment-btn {
+    background: #2C2891;
+}
+
+#save-btn {
+    background: #1C7947;
+}
+
+#save-el {
+    font-weight: bold;
+}
+
