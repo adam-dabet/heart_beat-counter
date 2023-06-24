@@ -29,9 +29,7 @@ h1 {
 }
 
  #increment-btn {
-    position:relative;
-    bottom:220px;
-    left: 220px;
+    
     background-color: white;
     color: red;
     
@@ -49,9 +47,7 @@ svg {
     height: 40vh;
     width: 40vh;
     transform: rotate(-90deg);
-    position: relative;
-    left:40px;
-    bottom:40px; 
+
     
   }
  
@@ -73,9 +69,7 @@ circle {
 }
 
 #bb{
-    position: relative;
-    top:0px;
-    right:190px;
+    
     background-color: #2C2891;
     color: red;
     align-self: center;
